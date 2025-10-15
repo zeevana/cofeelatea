@@ -23,11 +23,12 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    axios
-      .get(API_URL + "products")
-      .then((res) => this.setState({ menus: res.data }))
-      .catch((error) => console.log("error ya", error));
-  }
+  axios
+    .get(process.env.PUBLIC_URL + "/db.json")
+    .then((res) => this.setState({ menus: res.data.products })) // ← ambil array products
+    .catch((err) => console.log("error ya", err));
+}
+
 
   render() {
     const { menus } = this.state;
