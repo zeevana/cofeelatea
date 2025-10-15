@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navbar";
 import { Col, Container, Row } from "react-bootstrap";
 import axios from "axios";
-import { API_URL } from "./Consta";
 import Menus from "./Menus";
 
 // gradasi warna
