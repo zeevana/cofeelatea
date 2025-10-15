@@ -25,7 +25,7 @@ export default class App extends Component {
   componentDidMount() {
   axios
     .get(process.env.PUBLIC_URL + "/db.json")
-    .then((res) => this.setState({ menus: res.data.products })) // ← ambil array products
+    .then((res) => this.setState({ menus: res.data.products }))
     .catch((err) => console.log("error ya", err));
 }
 
@@ -167,7 +167,7 @@ export default class App extends Component {
           className="rounded-circle shadow-sm"
           style={{ width: 160, height: 160, objectFit: "cover" }}
         />
-        <p className="mt-3 fw-semibold mb-0">Femmy Marsitha</p>
+        <p className="mt-3 fw-semibold mb-0">Alex</p>
         <p style={{ fontSize: "0.9rem", color: "#f3dcb6" }}>Owner CoffeLatea</p>
       </Col>
     </Row>
@@ -183,12 +183,12 @@ export default class App extends Component {
     <div className="d-flex flex-wrap justify-content-center align-items-center gap-3 mt-4">
       <span className="d-inline-flex align-items-center gap-2">
         <span role="img" aria-label="alamat">📍</span>
-        <span>Jl. Trikora Wosi, Manokwari, Papua Barat</span>
+        <span>Jl. Amban, Universitas Papua</span>
       </span>
 
       <span className="d-inline-flex align-items-center gap-2">
         <span role="img" aria-label="telepon">☎️</span>
-        <a href="tel:082112345678" className="link-light text-decoration-none">0821-1234-5678</a>
+        <a href="tel: 082198373735" className="link-light text-decoration-none">0821-9837-3735</a>
       </span>
 
       <span className="d-inline-flex align-items-center gap-2">
