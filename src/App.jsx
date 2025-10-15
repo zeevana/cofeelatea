@@ -89,7 +89,7 @@ export default class App extends Component {
         {/*Makanan*/}
         <div className="mt-5" id="cat-makanan">
           <Container fluid className="px-4">
-            <h3 className="fw-bold mb-3" style={{ color: "#3a2320" }}>
+            <h3 className="fw-bold mb-5" style={{ color: "#3a2320" }}>
              Makanan
             </h3>
               <Row className="g-4 justify-content-start">
@@ -103,7 +103,7 @@ export default class App extends Component {
         {/*Cream*/}
         <div className="mt-5" id="cat-coffe">
           <Container fluid className="px-4">
-            <h3 className="fw-bold mb-3" style={{ color: "#3a2320" }}>
+            <h3 className="fw-bold mb-5" style={{ color: "#3a2320" }}>
              Cream Series
             </h3>
               <Row className="g-4 justify-content-start">
@@ -117,7 +117,7 @@ export default class App extends Component {
         {/*Fresh */}
         <div className="mt-5" id="cat-coffe">
           <Container fluid className="px-4">
-            <h3 className="fw-bold mb-3" style={{ color: "#3a2320" }}>
+            <h3 className="fw-bold mb-5" style={{ color: "#3a2320" }}>
              Fresh Series
             </h3>
               <Row className="g-4 justify-content-start">
@@ -131,7 +131,7 @@ export default class App extends Component {
          {/*Coffe*/}
         <div className="mt-5" id="cat-coffe">
           <Container fluid className="px-4">
-            <h3 className="fw-bold mb-3" style={{ color: "#3a2320" }}>
+            <h3 className="fw-bold mb-5" style={{ color: "#3a2320" }}>
             Coffe Series
             </h3>
               <Row className="g-4 justify-content-start">
