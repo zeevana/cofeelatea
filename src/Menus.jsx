@@ -7,8 +7,7 @@ import { numberWithCommas } from "./utils/utils";
 
 function Menus({ menu, small, hideDesc }) {
 
-  // ukuran grid: default (best seller) vs kecil (kategori)
-  const colDefault = { xs: 12, sm: 6, md: 4, lg: 3 }; // 4 kolom di desktop
+  const colDefault = { xs: 12, sm: 6, md: 4, lg: 3 }; 
   const colSmall   = { xs: 6,  sm: 4, md: 3, lg: 2 };
   const colProps   = small ? colSmall : colDefault;
 
