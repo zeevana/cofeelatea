@@ -1,0 +1,364 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Makanan"
+    },
+    {
+      "id": 2,
+      "nama": "Cream Series"
+    },
+    {
+      "id": 3,
+      "nama": "Coffe Series"
+    },
+    {
+      "id": 4,
+      "nama": "Fresh Series"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Ayam Setan",
+      "harga": 25000,
+      "title": "best seller",
+      "is_ready": true,
+      "gambar": "ayam-setan.jpg",
+       "desc": "",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Ayam Kampus",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "ayam-kampus.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Mie Caksu",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "mie-caksu.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Mie Toping Ayam",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "mie-toping-ayam.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Coklat",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "coklat.jpg",
+     
+      "category": {
+        "id": 2,
+        "nama": "Cream Series"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Matcha",
+      "harga": 15000,
+      "title": "best seller",
+      "is_ready": true,
+      "gambar": "matcha.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Cream Series"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Vanila",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "vanila.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Cream Series"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Kopi Rumit",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "kopi-rumit.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Coffe Series"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Kopi Coklat",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "kopi-coklat.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Coffe Series"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-010",
+      "nama": "Lemon Tea",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "lemon-tea.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Fresh Series"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "K-011",
+      "nama": "Leci Tea",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "leci-tea.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Fresh Series"
+      }
+    },
+     {
+      "id": 12,
+      "kode": "K-012",
+      "nama": "Cappucino",
+      "harga": 15000,
+      "title": "best seller",
+      "is_ready": true,
+      "gambar": "cappucino.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Coffe Series"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "K-013",
+      "nama": "Matcha Kopi",
+      "harga": 15000,
+      "title": "best seller",
+      "is_ready": true,
+      "gambar": "matcha-kopi.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Coffe Series"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "K-014",
+      "nama": "Redvelvet Kopi",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "redvelvet-kopi.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Coffe Series"
+      }
+    },
+    {
+      "id": 15,
+      "kode": "K-015",
+      "nama": "Taro Kopi",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "taro-kopi.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Coffe Series"
+      }
+    },
+    {
+      "id": 16,
+      "kode": "K-016",
+      "nama": "Vanilla Kopi",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "vanilla-kopi.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Coffe Series"
+      }
+    },
+    {
+      "id": 17,
+      "kode": "K-017",
+      "nama": "Thai Tea Kopi",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "thai-tea-kopi.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Coffe Series"
+      }
+    },
+    {
+      "id": 18,
+      "kode": "K-018",
+      "nama": "Kopi Susu",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "kopi-susu.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Coffe Series"
+      }
+    },
+    {
+      "id": 19,
+      "kode": "K-019",
+      "nama": "Coklat Oreo",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "coklat-oreo.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Cream Series"
+      }
+    },
+    {
+      "id": 20,
+      "kode": "K-020",
+      "nama": "Alpukat",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "alpukat.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Cream Series"
+      }
+    },
+    {
+      "id": 21,
+      "kode": "K-021",
+      "nama": "Taro",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "taro.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Cream Series"
+      }
+    },
+     {
+      "id": 22,
+      "kode": "K-022",
+      "nama": "Redvelvet",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "redvelvet.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Cream Series"
+      }
+    },
+     {
+      "id": 23,
+      "kode": "K-023",
+      "nama": "Thai Tea",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "thai-tea.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Cream Series"
+      }
+    },
+    {
+      "id": 24,
+      "kode": "K-024",
+      "nama": "Orange Squash",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "orange-squash.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Fresh Series"
+      }
+    },
+    {
+      "id": 25,
+      "kode": "K-025",
+      "nama": "Leci Squash",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "leci-squash.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Fresh Series"
+      }
+    },
+    {
+      "id": 26,
+      "kode": "K-026",
+      "nama": "Pineapple Squash",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "pineapple-squash.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Fresh Series"
+      }
+    },
+    {
+      "id": 27,
+      "kode": "K-027",
+      "nama": "Manggo Squash",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "manggo-squash.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Fresh Series"
+      }
+    },
+    {
+      "id": 28,
+      "kode": "K-028",
+      "nama": "Lemon Asu",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "lemon-asu.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Fresh Series"
+      }
+    }
+
+  ]}
